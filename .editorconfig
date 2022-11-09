@@ -1,0 +1,22 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+
+[*.{html,js,json,md,scss,sh}]
+indent_size = 2
+trim_trailing_whitespace = true
+
+[*.sublime-project]
+indent_style = tab
+indent_size = 2
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+[Makefile]
+indent_style=tab
